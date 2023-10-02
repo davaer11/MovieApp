@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Card, CardTitle } from 'react-bootstrap';
 import MovieCard from './MovieCard';
 import { useEffect, useState } from 'react';
-import { findAllGenresForAllMovies, fetchAllMovieGenres } from './utils/utils';
+import { findAllGenresForAllMovies, fetchAllMovieGenres } from '../utils/utils';
 
 const RecommendedMovies = (props) => {
 	const movies = props.recommendedMovies;

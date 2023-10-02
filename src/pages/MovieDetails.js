@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Youtube from 'react-youtube';
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { fetchRecommendedMovies } from '../components/utils/utils';
+import { fetchRecommendedMovies } from '../utils/utils';
 import RecommendedMovies from '../components/RecommendedMovies';
 
 const MovieDetails = () => {

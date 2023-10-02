@@ -4,7 +4,7 @@ import {
 	fetchMovies,
 	fetchAllMovieGenres,
 	findAllGenresForAllMovies,
-} from './utils/utils';
+} from '../utils/utils';
 
 const UpcomingMovies = () => {
 	const [movies, setMovies] = useState([]);
